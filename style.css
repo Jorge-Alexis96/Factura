@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;;
+  box-sizing: border-box;
+}
+
+.body {
+  background: no-repeat center fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgb(27, 38, 44, 0.90), rgb(27, 38, 44, 0.90)), url(./2999.jpg);
+}
+
+.headContainer {
+  margin-top: 30px;
+  background-color: #3282b8;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+}
+
+.headContainer h2 {
+  color: #eeeeee;
+}
+
+.sectionDatos {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.sectionDatos .sectionInfo {
+  margin-bottom: 20px;
+}
+
+.sectionDatos label {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sectionDatos input {
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #3282b8;
+}
+
+.sectionDatos input:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+/* Main sectionDatos */
+
+/* Main sectionForm */
+
+.form {
+  justify-content: center;
+}
+
+.form .formProducto {
+  text-align: center;
+}
+
+.form .formProducto label {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form .formProducto input {
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #3282b8;
+}
+
+.form .formProducto input:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+.form .formProducto .btnForm {
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.form .formProducto .btnForm i {
+  color: #3282b8;
+  font-size: 50px;
+  transition: 1s;
+}
+
+.form .formProducto .btnForm i:hover {
+  color: white;
+}
+
+/* Main sectionForm */
+
+/* Main sectionTablas */
+
+.sectionTablas {
+  justify-content: center;
+}
+
+.sectionTablas .tablas {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.sectionTablas .tablas .tableHead {
+  background-color: #3282b8;
+  border: 1px solid white;
+}
+
+.sectionTablas .tablas .tableBody {
+  background-color: #3282b81e;
+  border: 1px solid white;
+}
+
+.sectionTablas .tablas .tableFooter {
+  background-color: #3282b8;
+  border: 1px solid white;
+}
+
+/* Main sectionTablas */
+
+.guardarTodo {
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.guardarTodo button{
+  padding: 5px 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  background-color: #3282b8;
+  font-size: 25px;
+  color: white ;
+  transition: 1s;
+}
+
+.guardarTodo button i {
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.guardarTodo button:hover{
+  background-color: white;
+  color: #3282b8;
+}
